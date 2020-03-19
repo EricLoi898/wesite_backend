@@ -1,0 +1,21 @@
+{
+  "name": "wesite_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon --max-old-space-size=8192 index.js",
+    "deploy": "node --max-old-space-size=8192 index.js"
+  },
+  "author": "Shinshiichigo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0",
+    "serve-index": "^1.9.1"
+  }
+}
